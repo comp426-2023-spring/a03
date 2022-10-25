@@ -2,9 +2,9 @@
 
 This assignment will help you learn to create an installable Node.js module package. You'll also provide a command line interface with it. 
 
-## DO NOT CLONE THIS REPOSITORY DIRECTLY
+## DO NOT CLONE THIS REPOSITORY DIRECTLY FROM THE TEMPLATE REPO
 
-Use the GitHub classroom link instead: 
+Use the personalized repository that is generated when you follow the GitHub classroom link instead: https://classroom.github.com/a/o2BI17QU
 
 **_If you clone this repo directly, it will not be added to the organization as an individual repo associated with your account and you will not be able to push to it._**
 
