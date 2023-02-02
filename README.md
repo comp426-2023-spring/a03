@@ -4,7 +4,7 @@ This assignment will help you learn to create an installable Node.js module pack
 
 ## DO NOT CLONE THIS REPOSITORY DIRECTLY FROM THE TEMPLATE REPO
 
-Use the personalized repository that is generated when you follow the GitHub classroom link instead: https://classroom.github.com/a/o2BI17QU
+Use the personalized repository that is generated when you follow the GitHub classroom link instead: https://classroom.github.com/a/p57R-IU9
 
 **_If you clone this repo directly, it will not be added to the organization as an individual repo associated with your account and you will not be able to push to it._**
 
@@ -15,14 +15,14 @@ The purpose of this assignment is to create an installable Node.js module packag
 ## Setup
 
 1. After you've cloned your repository, run `npm init` and follow it through, adding and changing information as needed. 
-2. Set package name to `node-dice`. 
-2. Set the `main` file to be `./lib/roll.js`
+2. Set package name to `node-rpsls`. 
+2. Set the `main` file to be `./lib/rpsls.js`
 3. Set the license to match the license in the repository.
-4. Once your `package.json` file is created, set the `bin` file to be `"roll-dice": "./bin/cli.js"`
+4. Once your `package.json` file is created, set the `bin` file to be `"rpsls": "./bin/cli.js"`
 5. Install dependencies. You'll need minimist for this assignment to parse command line arguments.
 6. Create directories `bin` and `lib` inside the root of the directory.
-7. Create `roll.js` inside the `lib` directory. This is going to be the main file and also where you will put your dice-rolling function(s). 
-8. Create `cli.js` inside the `bin` directory. This is going to be the file that runs when you link/install the package and run `roll-dice`.
+7. Create `rpsls.js` inside the `lib` directory. This is going to be the main file and also where you will put your dice-rolling function(s). 
+8. Create `cli.js` inside the `bin` directory. This is going to be the file that runs when you link/install the package and run `rpsls`.
 9. Put the appropriate shebang in the `./bin/cli.js` file. 
 10. Make sure `./bin/cli.js` is executable (i.e. run `chmod +x ./bin/cli.js`). 
 
@@ -37,24 +37,15 @@ There are two requirements for this assignment package:
 
 Your module should be importable using the following:
 
-`import { roll } from "/lib/roll.js"`
+`import { rpsls } from "/lib/rpsls.js"`
 
 You will want this to be installable for a04 as well, so think about that. Read this for more info about importing: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import
 
-The `roll` function in `roll.js` should take three arguments:
-
-1. number of sides for your dice, 
-2. number of dice,
-3. number of times rolled. 
-
-The `roll` function should return an object with the following information:
+A `play` function in `/lib/rpsls.js` should return an object with the following pattern:
 
 ```
 {
-  sides: x,
-  dice: y,
-  rolls: z,
-  results: []
+  player: spock
 };
 ```
 
