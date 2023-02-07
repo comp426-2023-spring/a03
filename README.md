@@ -1,4 +1,4 @@
-# Assignment 03: Create a module-based line Node.js package (with CLI)
+# Assignment 03: Create a module-based command line Node.js package (with CLI)
 
 This assignment will help you learn to create an installable Node.js module package. You'll also provide a command line interface with it. 
 
@@ -101,3 +101,19 @@ And an example output:
 ```
 
 > HINT: Use `JSON.stringify()` to convert the output of your function to JSON. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify
+
+### Resources
+
+https://www.theserverside.com/tutorial/Tutorial-Coding-a-simple-Rock-Paper-Scissors-application-in-JavaScript
+
+https://learnersbucket.com/tutorials/js-projects/rock-paper-scissor-lizard-spock-game-in-javascript/
+
+https://github.com/partha7978/Rock-Paper-Scissors-Lizard-Spock
+
+https://hackernoon.com/how-to-create-rock-paper-scissors-spock-lizard-in-javascript-991k36hy
+
+https://codepen.io/763004/pen/pPGGyP
+
+https://stackoverflow.com/questions/22623331/rock-paper-scissors-lizard-spock-in-javascript
+
+
