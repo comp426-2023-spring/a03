@@ -14,7 +14,7 @@ The purpose of this assignment is to create an installable Node.js module packag
 
 The package you create will contain a module (or multiple modules) as well as configuration and scripts to allow the user to run `node-rps` and `node-rpsls` after instaling. 
 
-The package will contain command line games of "Rock Paper Scissors" (`node-rps`) and the more advanced version, "Rock, Paper Scissors Lizard Spock" (`node-rpsls`).
+The package will contain command line games of "[Rock Paper Scissors](https://en.wikipedia.org/wiki/Rock_paper_scissors)" (`node-rps`) and the more advanced version, "[Rock, Paper Scissors Lizard Spock](https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock)"  (`node-rpsls`).
 
 ## Setup
 
@@ -148,4 +148,7 @@ https://codepen.io/763004/pen/pPGGyP
 
 https://stackoverflow.com/questions/22623331/rock-paper-scissors-lizard-spock-in-javascript
 
+### Example online games
+
+https://rpsls.net/ - This one lets you play an opponent at a unique URL or a random opponent. 
 
