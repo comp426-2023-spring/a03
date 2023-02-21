@@ -171,7 +171,7 @@ Examples:
 ##### Example rules message for RPSLS
 
 ```
-Rules for the Lizard-Spock Espansion of Rock Paper Scissors:
+Rules for the Lizard-Spock Expansion of Rock Paper Scissors:
 
   - Scissors CUTS Paper
   - Paper COVERS Rock
